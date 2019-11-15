@@ -1,0 +1,22 @@
+imax 1 number of channels
+jmax 1 number of processes minus 1
+kmax * number of nuisance parameters
+------------------------------------------------------------
+observation	442856.000
+------------------------------------------------------------
+shapes * * cards_PFNo70Dijet2016bgDeepJet1b3095p_scan/dijet_combine_qg_2700_lumi-37.600_PFNo70Dijet2016bgDeepJet1b3095p.root wPFNo70Dijet2016bgDeepJet1b3095p:$PROCESS wPFNo70Dijet2016bgDeepJet1b3095p:$PROCESS_$SYSTEMATIC
+------------------------------------------------------------
+bin	PFNo70Dijet2016bgDeepJet1b3095p	PFNo70Dijet2016bgDeepJet1b3095p
+process	PFNo70Dijet2016bgDeepJet1b3095p_qg	PFNo70Dijet2016bgDeepJet1b3095p_bkg
+process	0	1
+rate	16.308	442855.908
+------------------------------------------------------------
+lumi_2016	lnN	1.026	1.026
+jes_2016	shape		1.0	-
+jer_2016	shape		1.0	-
+btag_2016	shape		1.0	-
+p1_PFNo70Dijet2016bgDeepJet1b3095p	flatParam
+p2_PFNo70Dijet2016bgDeepJet1b3095p	flatParam
+p3_PFNo70Dijet2016bgDeepJet1b3095p	flatParam
+p4_PFNo70Dijet2016bgDeepJet1b3095p	flatParam
+PFNo70Dijet2016bgDeepJet1b3095p_bkg_norm	flatParam
