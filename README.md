@@ -1,6 +1,10 @@
 # HiggsAnalysisCombine
 
 ```
+cmsrel CMSSW_7_1_19
+
+cd CMSSW_7_1_19/src/
+
 git clone https://github.com/corvettettt/HiggsAnalysisCombine.git HiggsAnalysis/
 
 cd HiggsAnalysis/CombinedLimit
